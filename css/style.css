@@ -1,0 +1,156 @@
+*, ::before,::after{ margin: 0; box-sizing: border-box;}
+a{ text-decoration: none; cursor: pointer;}
+img{ vertical-align: bottom;}
+button{ cursor: pointer;}
+:disabled{ cursor: not-allowed;}
+label{ display: inline-block;}
+iframe{ border: none;}
+ul{ list-style: none; padding: 0;}
+
+
+@font-face {
+    font-family: montr;
+    src: url(../fonts/montserrat-v24-latin-regular.woff2);
+    font-display: swap;
+}
+@font-face {
+    font-family: montb;
+    src: url(../fonts/montserrat-v24-latin-700.woff2);
+    font-display: swap;
+}
+
+h1, h2, h3, h4, b, th, strong{ font-family: montb, sans-serif;}
+body{
+    font-family: montr, sans-serif; 
+}
+
+.container{ 
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.row{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 -15px;
+}
+.row .col{ flex: 1 0 auto; padding: 0 15px; }
+.align-center{
+    align-items: center;
+}
+.col-1{
+    flex: 1 0 8.33%;
+    padding: 0 15px;
+    min-width: 8.33%;
+}
+.col-2{
+    flex: 1 0 16.66%;
+    padding: 0 15px;
+    min-width: 16.66%;
+}
+.col-3{
+    flex: 1 0 25%;
+    padding: 0 15px;
+    min-width: 25%;
+}
+.col-4{
+    flex: 1 0 33.33%;
+    padding: 0 15px;
+    max-width: 33.33%;
+}
+.col-5{
+    flex: 1 0 41.66%;
+    padding: 0 15px;
+    max-width: 41.66%;
+}
+.col-6{
+    flex: 1 0 50%;
+    padding: 0 15px;
+    max-width: 50%;
+}
+.col-7{
+    flex: 1 0 58.33%;
+    padding: 0 15px;
+    max-width: 58.33%;
+}
+.col-8{
+    flex: 1 0 66.66%;
+    padding: 0 15px;
+    max-width: 66.66%;
+}
+.col-9{
+    flex: 1 0 75%;
+    padding: 0 15px;
+    max-width: 75%;
+}
+.col-10{
+    flex: 1 0 83.33%;
+    padding: 0 15px;
+    max-width: 83.33%;
+}
+.col-11{
+    flex: 1 0 91.66%;
+    padding: 0 15px;
+    max-width: 91.66%;
+}
+.col-12{
+    flex: 1 0 100%;
+    padding: 0 15px;
+    max-width: 100%;
+}
+.fl{ float: left;}
+.fr{ float: right;}
+.clear{ clear: both;}
+.flex{ display: flex; }
+
+/* layout */
+.wrap-1{ color: #162535; background: #74cdc3;}
+.brand{ line-height: 81px; }
+.brand span{ background: #162535;  }
+.brand span:first-child{ display: inline-block; width: 11px; height: 22px; border-radius: 0 11px 11px 0;}
+.brand span:last-child{ display: inline-block; width: 22px; height: 22px; border-radius:11px;}
+.wrap-1 nav{ }
+.wrap-1 nav ul{ display: flex; justify-content: right;  }
+.wrap-1 nav ul li{ margin: 0 7px; }
+.wrap-1 nav ul li a{ color: #fff; line-height: 34px; display: block; padding: 0 15px; }
+.wrap-1 nav ul li:hover a{ background: #162535; color: #fff; border-radius: 17px;}
+.last{ background: #162535; border-radius: 17px;}
+
+.banner{ padding: 140px 0;  }
+.banner p{ font-size: 24px;}
+.banner p.large{ font-size: 80px; line-height: 1; margin-bottom: 30px; }
+
+.download{ display: inline-block; width: 200px; line-height: 52px; background: #74cdc3; text-align: center; color: #fff; border-radius: 26px; margin: 20px 0;}
+.pics{ background: -webkit-radial-gradient(210px center, circle,#c75252 0px, transparent 210px);   position: relative;}
+.pics img{ float: right;}
+
+.caption{  position: absolute; left: -45px; border-radius: 30px; box-shadow: 0 0 20px gray; padding: 30px; width: 352px; height: 283px; top: 50%; background: #fff; }
+.caption p:first-child{ font-size: 30px; margin-bottom: 20px; }
+.caption p{ font-size: 18.5px; }
+
+.wrap-3{ padding: 70px 0; background: #162535; color: #fff; text-align: center;}
+.wrap-3 img{ border-radius: 24px; max-width: 100%;}
+.wrap-3 h3{ color:#74cdc3; font-size: 28px; margin: 20px 0;}
+
+.wrap-8{  padding: 100px 0; }
+.wrap-8 .flex{ flex-flow: row wrap;}
+.bg{background: #162535; color: #fff; padding: 30px; border-radius: 30px; }
+.c4{ flex:1 0 40%; padding: 12px; }
+.c8{ flex:1 0 60%; padding: 12px;}
+.c12{ flex:1 0 100%; padding: 12px;}
+.wrap-8 input{ width: 100%; height: 44px; padding: 10px;}
+.wrap-8 textarea{ width: 100%; padding: 10px; resize: none;}
+
+
+.wrap-9{ padding: 100px 0 300px; text-align: center;}
+.wrap-9 iframe{ width: 100%; border-radius: 30px; }
+
+.wrap-10{ background: #162535; color: #fff; padding: 100px 0;}
+.wrap-10 .brand{  }
+.wrap-10 .brand span{ background: #fff;  }
+.sb{ justify-content: space-between; }
+.social{ display: flex; }
+.social li{ margin-right: 10px; }
+.social li a{ color: #fff; }
+.wrap-10 img{ position: relative; top: -300px;}
